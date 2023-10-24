@@ -4,7 +4,6 @@ div {
   align-items: center;
   height: 98vh;
   flex-direction: column;
-  background-color: ;
 }
 
 body {
@@ -163,6 +162,7 @@ body {
   background-color: white;
   border-color: black;
   border: solid;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #square1 {
@@ -173,6 +173,7 @@ body {
   background-color: white;
   border-color: black;
   border: solid;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #rectangle1 {
@@ -183,6 +184,7 @@ body {
   background-color: white;
   border-color: black;
   border: solid;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #oval1 {
@@ -194,6 +196,7 @@ body {
   background-color: white;
   border-color: black;
   border: solid;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #diamond1 {
@@ -206,6 +209,7 @@ body {
   transform: rotate(45deg);
   border-color: black;
   border: solid;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .tool-bar {
