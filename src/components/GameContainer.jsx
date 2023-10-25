@@ -7,11 +7,26 @@ const GameContainer = () => {
     const [selectedShape, setSelectedShape] = useState(null);
     const [selectedColor, setSelectedColor] = useState(null);
     const [shapes, setShapes] = useState([]);
+    const [color, setColor] = useState('White');
 
     return (
         <div className="game-container">
-            <ToolBar setSelectedShape={setSelectedShape} setSelectedColor={setSelectedColor} setShapes={setShapes}/>
-            <GameBoard selectedShape={selectedShape} selectedColor={selectedColor} shapes={shapes} setShapes={setShapes}/>
+            <ToolBar
+            setSelectedShape={setSelectedShape} 
+            setSelectedColor={setSelectedColor} 
+            setShapes={setShapes} 
+            selectedShape={selectedShape} 
+            color = {color}
+            />
+
+            <GameBoard 
+            selectedShape={selectedShape} 
+            selectedColor={selectedColor} 
+            shapes={shapes} 
+            setShapes={setShapes}
+            setColor={setColor}
+            color={color}
+            />
         </div>
     );
 };
