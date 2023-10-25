@@ -15,6 +15,7 @@ function ShapeTools({ setSelectedShape, setShapes, selectedShape, color }) {
             <button className='shapebuttons' id='diamond' onClick={() => {setShapes(prevShapes => [...prevShapes, { shape: 'diamond', color: color }])}}>Diamond</button>
         </section>
     )
+    
 }
 
 
