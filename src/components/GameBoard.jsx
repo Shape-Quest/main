@@ -20,8 +20,9 @@ const GameBoard = ({ selectedShape, selectedColor }) => {
 
     React.useEffect(() => {
         if (selectedColor) {
-            setColor(selectedColor);
+            setColor(selectedColor); 
         }
+        
     }, [selectedColor]);
 
     return (
