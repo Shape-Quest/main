@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '/src/sass/styles.css';
 
-const GameBoard = ({ selectedShape, selectedColor }) => {
-    const [shapes, setShapes] = useState([]);
+const GameBoard = ({ selectedShape, selectedColor, shapes, setShapes }) => {
+    //const [shapes, setShapes] = useState([]);
     const [color, setColor] = useState('White');
     
     console.log("hi", shapes)
