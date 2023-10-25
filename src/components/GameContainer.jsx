@@ -4,7 +4,7 @@ import ToolBar from './ToolBar';
 import GameBoard from './GameBoard';
 
 const GameContainer = () => {
-    const [selectedShape, setSelectedShape] = useState(null);
+    const [selectedShape, setSelectedShape] = useState(null); //obsolete?
     const [selectedColor, setSelectedColor] = useState(null);
     const [shapes, setShapes] = useState([]);
     const [color, setColor] = useState('White');
