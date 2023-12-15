@@ -1,7 +1,6 @@
-Hello there!!!!
+Welcome to Shape Quest
 
-
-# Javacrypt
+# JavaScript
 
 
 DEPENDENCIES 
