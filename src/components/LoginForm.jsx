@@ -46,8 +46,8 @@ function LoginForm() {
 
     return (
         <div className="login-container">
-            <form onSubmit={handleSubmit} className="login-form">
-                <label>Username : </label>
+            <form onSubmit={handleSubmit} className="login-form" role="form">
+                <label>Username :</label>
                 <input
                     className="login-input"
                     id="username"
@@ -57,7 +57,7 @@ function LoginForm() {
                     placeholder='Write Username'
                     required
                 />
-                <label>Password  :</label>
+                <label>Password :</label>
                 <input id="password"
                     className="login-input"
                     type="password"
